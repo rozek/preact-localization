@@ -30,9 +30,9 @@
     "dist"
   ],
   "dependencies": {
-    "dlv": "^1.1.3"
   },
   "devDependencies": {
+    "dlv": "^1.1.3",
     "karmatic": "^1.4.0",
     "microbundle": "^0.11.0",
     "preact": "^10.3.4",
@@ -54,5 +54,8 @@
         "git add"
       ]
     }
-  }
+  },
+  "external": [
+    "preact"
+  ]
 }
